@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  app:
+    image: alpine
+    container_name: hello_container
+    command: echo "Hello from Docker container"
